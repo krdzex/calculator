@@ -75,11 +75,11 @@ const App = () => {
           <hr></hr>
         </div>
         <div className="input-div">
-          <input placeholder="Enter the operand and operator: 2,3,5.5,*,-,+" type="text" value={resultInput} onChange={onChangeHandle}></input>
+          <input placeholder="Enter the operand and operator: 2,3,5.5,*,-" type="text" value={resultInput} onChange={onChangeHandle}></input>
         </div>
         <div className="buttons">
-          <button onClick={calculation}>Submit</button>
-          <button onClick={clear}>Reset</button>
+          <button onClick={calculation}>Compute</button>
+          <button onClick={clear}>Clear</button>
         </div>
         <div className="errors" style={{ color: "red", alignContent: "center" }}>
           {errors}
